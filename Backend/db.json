@@ -1,0 +1,94 @@
+{
+  "login": [
+    {
+      "id": "b7a5",
+      "email": "junaidkhansaifi881@gmail.com",
+      "password": "sasadsad"
+    },
+    {
+      "id": "4986",
+      "email": "",
+      "password": ""
+    }
+  ],
+  "favCountry": [
+    {
+      "id": "73e0",
+      "country": "Puerto Rico",
+      "flag": "https://flagcdn.com/w320/pr.png",
+      "capital": [
+        "San Juan"
+      ],
+      "languages": {
+        "eng": "English",
+        "spa": "Spanish"
+      },
+      "currency": {
+        "name": "United States dollar",
+        "symbol": "$"
+      }
+    },
+    {
+      "id": "7e56",
+      "country": "British Virgin Islands",
+      "flag": "https://flagcdn.com/w320/vg.png",
+      "capital": [
+        "Road Town"
+      ],
+      "languages": {
+        "eng": "English"
+      },
+      "currency": {
+        "name": "United States dollar",
+        "symbol": "$"
+      }
+    },
+    {
+      "id": "2771",
+      "country": "Caribbean Netherlands",
+      "flag": "https://flagcdn.com/w320/bq.png",
+      "capital": [
+        "Kralendijk"
+      ],
+      "languages": {
+        "eng": "English",
+        "nld": "Dutch",
+        "pap": "Papiamento"
+      },
+      "currency": {
+        "name": "United States dollar",
+        "symbol": "$"
+      }
+    },
+    {
+      "id": "a451",
+      "country": "Turks and Caicos Islands",
+      "flag": "https://flagcdn.com/w320/tc.png",
+      "capital": [
+        "Cockburn Town"
+      ],
+      "languages": {
+        "eng": "English"
+      },
+      "currency": {
+        "name": "United States dollar",
+        "symbol": "$"
+      }
+    },
+    {
+      "id": "3c0d",
+      "country": "United States Minor Outlying Islands",
+      "flag": "https://flagcdn.com/w320/um.png",
+      "capital": [
+        "Washington DC"
+      ],
+      "languages": {
+        "eng": "English"
+      },
+      "currency": {
+        "name": "United States dollar",
+        "symbol": "$"
+      }
+    }
+  ]
+}
