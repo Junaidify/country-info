@@ -27,7 +27,7 @@ const Login = () => {
       alert("Login Success");
       navigate("/welcome");
       try {
-        const res = await axios.post("http://localhost:3000/login", loginData);
+        const res = await axios.post("https://country-info-1.onrender.com/login", loginData);
         console.log(res.data);
       } catch (err) {
         console.error(err);

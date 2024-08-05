@@ -14,7 +14,7 @@ const ContextApi = ({ children }) => {
     const getData = async () => {
       setLogin({ ...login, isLoading: true });
       try {
-        const res = await axios.get(`http://localhost:3000/login`);
+        const res = await axios.get(`https://country-info-1.onrender.com/login`);
         setLogin({ ...login, isLoading: false, data: res.data });
       } catch (err) {
         setLogin({ ...login, isLoading: false, isError: true });

@@ -40,7 +40,7 @@ export const CountryData = () => {
 
   const handleFavCountry = (item) => {
     axios
-      .post("http://localhost:3000/favCountry", {
+      .post("https://country-info-1.onrender.com/favCountry", {
         country: item.name.common,
         flag: item.flags.png,
         capital: item.capital,

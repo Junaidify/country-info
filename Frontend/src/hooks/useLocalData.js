@@ -12,7 +12,7 @@ export const useLocalData = (endpoint) => {
     const getData = async () => {
       setFetchedData({ ...fetchedData, isLoading: true });
       try {
-        const res = await axios.get(`http://localhost:3000/${endpoint}`);
+        const res = await axios.get(`https://country-info-1.onrender.com/${endpoint}`);
         setFetchedData({ ...fetchedData, isLoading: false, data: res.data });
       } catch (err) {
         setFetchedData({ ...fetchedData, isLoading: false, isError: true });
